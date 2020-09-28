@@ -1,4 +1,4 @@
-# Invadopodia-Tracker  
+# Invadopodia Tracker  
 This page gives detailed description of how to use "Invadopodia tracker" plugin to analyze invadopodia dynamics (e.g. first frame of invadopodia appearance, last frame of invadopodia disappearance, invadopodia lifetime and x-y coordinates of invadopodia in each frame) from time-lapse fluorescence movies. The plugin was published as a methods chapter (ref 1, below) and has been successfully used to track invadopodia in MTLn3, mammary carcinoma cells (ref 2) and MDA-MB-231, human breast cancer cells (refs 3,4,5).
 
 **References**
