@@ -1,5 +1,10 @@
 # Invadopodia Tracker  
-This page gives detailed description of how to use "Invadopodia tracker" plugin to analyze invadopodia dynamics (e.g. first frame of invadopodia appearance, last frame of invadopodia disappearance, invadopodia lifetime and x-y coordinates of invadopodia in each frame) from time-lapse fluorescence movies. The plugin was published as a methods chapter<sup>1</sup> and has been successfully used to track invadopodia in MTLn3, mammary carcinoma cells<sup>2</sup> and MDA-MB-231, human breast cancer cells<sup>3,4,5</sup>.
+<img src="Invadopodia tracking movie.gif" alt="Alt movie text">  
+
+**Movie:** Invadopodia tracking in a time-lapse movie of a carcinoma cell. Tracked invadopodia are shown in red circles. Time is in min:sec and movie is played at 20 fps.
+
+
+This page gives detailed description of how to use "Invadopodia tracker" plugin to analyze invadopodia dynamics (e.g. first frame of invadopodia appearance, last frame of invadopodia disappearance, invadopodia lifetime and x-y coordinates of invadopodia in each frame) from time-lapse fluorescence movies. Plugin was published in a methods chapter<sup>1</sup> and has been successfully used to track invadopodia in MTLn3, mammary carcinoma cells<sup>2</sup> and MDA-MB-231, human breast cancer cells<sup>3,4,5</sup>.
 
 **References**
 
@@ -39,10 +44,6 @@ To identify invadopodia, user needs to provide an estimate of the average number
 Noise tolerance, Delta noise tolerance and Max iterations are the next three parameters, which are set by default and change automatically when the user runs the plugin. These parameters were incorporated into the main user-interface of the plugin for advanced user to identify the problem in case the plugin is not tracking invadopodia properly.
 
 The information about length unit (e.g. pixels or microns) and the time it takes for the plugin to track the invadopodia appears in the log window and can be suppressed by checking the appropriate box. The information about invadopodia X-Y coordinates in each frame can be also be suppressed by checking the appropriate box. This comes in handy when user is only interested in invadopodia lifetimes.
-
-Here is a time-lapse movie of a mammary carcinoma MTLn3 cell (taken from ref 2), which was transfected with RFP-cortactin (a marker for invadopodia) and stimulated with epidermal growth factor (EGF). Within a few seconds of EGF stimulation, multiple invadopodia appear as seen by the RFP-cortactin rich dots. Three of such dots (i.e. invadopodia) were selected with a multi-point tool (in a frame close to the middle of the stack, where invadopodia were clearly visible) and Invadopodia tracker plugin was run. Movie shows tracked invadopodia in red circles. Time is in min:sec 
-
-insert tracking movie
 
 ## Error messages
 **Error #1**  
