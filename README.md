@@ -10,19 +10,19 @@ This page gives detailed description of how to use "Invadopodia tracker" plugin 
 5. Valenzuela-Iglesias A, Sharma VP, Beaty BT, Ding Z, Gutierrez-Millan LE, Roy P, Condeelis JS, Bravo-Cordero JJ. Profilin1 regulates invadopodium maturation in human breast cancer cells. Eur J Cell Biol. 2015 Feb;94(2):78-89
 
 ## Installation  
-Put Invadopodia_tracker_v03.class to the plugins folder and restart ImageJ. "Invadopodia tracker v03" command should now be visible under Plugins menu.
+Put <a href="Invadopodia_tracker_v03.class" download>Invadopodia_tracker_v03.class<a/> file in the plugins folder and restart ImageJ. "Invadopodia tracker v03" command should now be visible under Plugins menu.
 
 ## Source code  
-Invadopodia_tracker_v03.java
+<a href="Invadopodia_tracker_v03.java" download>Invadopodia_tracker_v03.java<a/>
 
 ## Description
 Following is a flow diagram (taken from ref 1) of how Invadopodia tracker plugin works. The description of individual steps "a" through "h" can be found in ref 1.
 
-insert image1
+![image1](image1.png)
 
 Briefly, "Invadopodia tracker" plugin works on an 8-bit or preferably 16-bit single channel fluorescence time-lapse stack. Open the stack. Choose the invadopodia you want to track by clicking on it with a "Point" tool (See Error #1 in Error messages section). Multiple-point tool can be used for selecting more than one invadopodia. Run "Invadopodia tracker v03" plugin. A dialog window (shown below) pops up, where user needs to enter a few parameters (described in detail later on). After a successful run, tracker marks each invadopodium with a red circle and writes the invadopodium trajectory coordinates in a log window. The values are tab-delimited, so these can be directly copied and pasted into an Excel file for further processing (e.g. to calculate invadopodia lifetime, velocity, total distance and net distance traveled). The first column is the frame number; second and third columns are the x and y coordinates, respectively.
 
-insert image2
+![image2](image2.png)
 
 <ins>Max invadopod displacement (pixels)</ins>
 
@@ -45,13 +45,13 @@ Here is a time-lapse movie of a mammary carcinoma MTLn3 cell (taken from ref 2),
 insert tracking movie
 
 ## Error messages
-Error #1
-insert error 1 image
+Error #1  
+![image3](image3.png)
 
 This one is pretty obvious that the plugin did not find any invadopod(s) within 5 pixels (user defined "Max invadopod displacement" parameter) of point ROI. Draw the point ROI closer to the actual invadopod maxima.
 
-Error #2
-insert error 2 image
+Error #2  
+![image4](image4.png)
 
 Here, user defined  the estimates of min and max no. of invadopodia as 150 and 200, respectively. Plugin found 146 invadpodia at noise tolerance (NT) value of 14 (previous iteration) and by lowering NT to 13, plugin finds 211 invadopodia (current iteration). Meaning, to converge to a solution, the invadopodia min - max range needs to be increased by either decreasing the estimate of min no. of invadopodia (to less than or equal to 146; a good guess is 125) and/or increasing the estimate of max no. of invadopodia (to more than or equal to 211; a good guess is 225).
 
@@ -68,5 +68,5 @@ run("Invadopodia tracker v03", "max=5 estimate=200 estimate_=300 noise=500 delta
 // macro ends here
 ```
 
-Published: November 20, 2013
-Last update: February 16, 2015
+<sub>Published: November 20, 2013</sub>  
+<sub>Last update: February 16, 2015</sub>
