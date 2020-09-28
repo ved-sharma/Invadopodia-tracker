@@ -1,4 +1,4 @@
-# Invadopodia Tracker  
+# Invadopodia tracker  
 <img src="Invadopodia tracking movie.gif" alt="Alt movie text">  
 
 **Movie:** Invadopodia tracking in a time-lapse movie of a carcinoma cell. Tracked invadopodia are shown in red circles. Time is in min:sec and movie is played at 20 fps.
@@ -45,7 +45,7 @@ Noise tolerance, Delta noise tolerance and Max iterations are the next three par
 
 The information about length unit (e.g. pixels or microns) and the time it takes for the plugin to track the invadopodia appears in the log window and can be suppressed by checking the appropriate box. The information about invadopodia X-Y coordinates in each frame can be also be suppressed by checking the appropriate box. This comes in handy when user is only interested in invadopodia lifetimes.
 
-## Error messages
+## Handling error messages
 **Error #1**  
 ![image3](image3.png)
 
