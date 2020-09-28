@@ -1,5 +1,5 @@
 # Invadopodia Tracker  
-This page gives detailed description of how to use "Invadopodia tracker" plugin to analyze invadopodia dynamics (e.g. first frame of invadopodia appearance, last frame of invadopodia disappearance, invadopodia lifetime and x-y coordinates of invadopodia in each frame) from time-lapse fluorescence movies. The plugin was published as a methods chapter (ref 1, below) and has been successfully used to track invadopodia in MTLn3, mammary carcinoma cells (ref 2) and MDA-MB-231, human breast cancer cells (refs 3,4,5).
+This page gives detailed description of how to use "Invadopodia tracker" plugin to analyze invadopodia dynamics (e.g. first frame of invadopodia appearance, last frame of invadopodia disappearance, invadopodia lifetime and x-y coordinates of invadopodia in each frame) from time-lapse fluorescence movies. The plugin was published as a methods chapter<sup>1</sup> and has been successfully used to track invadopodia in MTLn3, mammary carcinoma cells<sup>2</sup> and MDA-MB-231, human breast cancer cells<sup>3,4,5</sup>.
 
 **References**
 
@@ -45,12 +45,12 @@ Here is a time-lapse movie of a mammary carcinoma MTLn3 cell (taken from ref 2),
 insert tracking movie
 
 ## Error messages
-Error #1  
+**Error #1**  
 ![image3](image3.png)
 
 This one is pretty obvious that the plugin did not find any invadopod(s) within 5 pixels (user defined "Max invadopod displacement" parameter) of point ROI. Draw the point ROI closer to the actual invadopod maxima.
 
-Error #2  
+**Error #2**  
 ![image4](image4.png)
 
 Here, user defined  the estimates of min and max no. of invadopodia as 150 and 200, respectively. Plugin found 146 invadpodia at noise tolerance (NT) value of 14 (previous iteration) and by lowering NT to 13, plugin finds 211 invadopodia (current iteration). Meaning, to converge to a solution, the invadopodia min - max range needs to be increased by either decreasing the estimate of min no. of invadopodia (to less than or equal to 146; a good guess is 125) and/or increasing the estimate of max no. of invadopodia (to more than or equal to 211; a good guess is 225).
