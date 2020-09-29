@@ -1,5 +1,5 @@
 # Invadopodia tracker  
-<img src="Invadopodia tracking movie.gif" alt="Alt movie text">  
+<img src="Invadopodia tracking movie_v2.gif" alt="Invadopodia tracking movie_v2">  
 
 **Movie:** Invadopodia tracking in a time-lapse movie of a carcinoma cell. Tracked invadopodia are shown in red circles. Time is in min:sec and movie is played at 20 fps.
 
