@@ -13,6 +13,9 @@ This page gives detailed description of how to use "Invadopodia tracker" plugin 
 3. Beaty BT, Sharma VP, Bravo-Cordero JJ, Simpson MA, Eddy RJ, Koleske AJ, Condeelis J. β1 integrin regulates Arg to promote invadopodial maturation and matrix degradation. Mol Biol Cell, 2013 Jun; 24(11):1661-75
 4. Beaty BT, Wang Y, Bravo-Cordero JJ, Sharma VP, Miskolci V, Hodgson L, Condeelis J. Talin regulates moesin-NHE-1 recruitment to invadopodia and promotes mammary tumor metastasis. J Cell Biol. 2014 Jun 9;205(5):737-51
 5. Valenzuela-Iglesias A, Sharma VP, Beaty BT, Ding Z, Gutierrez-Millan LE, Roy P, Condeelis JS, Bravo-Cordero JJ. Profilin1 regulates invadopodium maturation in human breast cancer cells. Eur J Cell Biol. 2015 Feb;94(2):78-89
+6. Cmoch A, Groves P, Pikuła S. Biogenesis of invadopodia and their cellular functions. Postepy Biochem. 2014;60(1):62-8. PMID: 25033543
+7. Collins KB, Kang H, Matsche J, Klomp JE, Rehman J, Malik AB, Karginov AV. Septin2 mediates podosome maturation and endothelial cell invasion associated with angiogenesis. J Cell Biol. 2020 Feb 3;219(2):e201903023. PMID: 31865373
+8. Burton KM, Cao H, Chen J, Qiang L, Krueger EW, Johnson KM, Bamlet WR, Zhang L, McNiven MA, Razidlo GL. Dynamin 2 interacts with α-actinin 4 to drive tumor cell invasion. Mol Biol Cell. 2020 Mar 15;31(6):439-451. PMID: 31967944
 
 ## Installation  
 Put <a href="Invadopodia_tracker_v03.class" download>Invadopodia_tracker_v03.class<a/> file in the plugins folder and restart ImageJ. "Invadopodia tracker v03" command should now be visible under Plugins menu.
